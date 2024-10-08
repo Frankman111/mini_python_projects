@@ -23,5 +23,4 @@ def calculations(weight, target_calories, protein_intake, fat_intake):
 calculations(weight, target_calories, protein_intake, fat_intake)
 
 
-
 111
