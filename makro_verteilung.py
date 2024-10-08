@@ -13,8 +13,8 @@ def calculations(weight, target_calories, protein_intake, fat_intake):
     fat = locale.atof(weight)*locale.atof(fat_intake)
     fat = round(fat, 1)
     carbs = (locale.atof(target_calories) - ((protein*4.2) + (fat*9))) // 4.2
-    
     carbs = round(carbs, 1)
+    
     msg = "Protein: " +  str(protein) +  "g " + "Fett: " + str(fat)  +"g " "Kohlenhydrate: "  + str(carbs) + "g"
     print(msg)
     return protein, fat
